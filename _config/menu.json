@@ -1,0 +1,9 @@
+{
+  "menu-first-rt-sz-pricing": {
+      "weight": 200000,
+      "title": "Secure Zone Pricing",
+      "attr": {
+          "href": "index.html"
+      }
+  }
+}
