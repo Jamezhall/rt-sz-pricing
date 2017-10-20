@@ -30,7 +30,6 @@ function editSzPrice() {
 		console.log("Error code: " + jqXHR.status);
 		console.log("Error text: " + jqXHR.statusText);
 		console.log("Response text: " + jqXHR.responseText);
-		showMessage("Their was an error updating your information, please try again.","error");
 	});
 
 	console.log("Price hard coded to change to 199.99");
