@@ -11,9 +11,9 @@ function editSzPrice() {
 		url: '/webresources/api/v3/sites/current/securezones/51',
 		data: JSON.stringify({
 			"name": "SZ API UPDATED 1",
+			"sellAccess": true,
 			"costPerPeriod": 199.99,
 			"orderCountryCode": "AU",
-			"sellAccess": true,
 			"cycleType": 1
 		}),
 		type: "PUT",
